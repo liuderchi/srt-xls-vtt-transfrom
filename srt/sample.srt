@@ -1,0 +1,12 @@
+1
+00:00:00,270 --> 00:00:00,700
+Hey, everybody.
+
+2
+00:00:00,700 --> 00:00:03,260
+Welcome to my course
+this is a demo srt file.
+
+3
+00:00:03,260 --> 00:00:05,250
+class ends. See you next time.
