@@ -4,20 +4,25 @@
 
   - Transform SRT subtitles to XLS file storing different languages
   - After your own translation, transform XLS file to VTT subtitles
+  - OR you can directly transform SRT subtitles to VTT subtitles
 
 ## Environment
 
   - Python: v3.4 or higher
-  - Python Package: xlrd (v0.9.4), xlwt (v1.0.0)
+  - Python Package: `xlrd` (v0.9.4), `xlwt` (v1.0.0)
       - use ```pip install xlrd && pip install xlwt``` to install
 
 ## Run the code
 
+  - transform SRT file to VTT file
+     - **NOTE** original text will be _commented_ in VTT file
+     - ```$ python srt2vtt.py ./in/mySubtitle.srt ./out/vttFolder/```
+
   - transform SRT file to XLS file
-      - ```python srt2xls.py ./path/to/my.srt ./path/to/xls```
+      - ```$ python srt2xls.py ./path/to/my.srt ./path/to/xls```
       - would generate file ```my.xls```
   - transform translated XLS file to VTT file
-      - ```python xls2srt.py ./path/to/my.xls ./path/to/vtt```
+      - ```$ python xls2srt.py ./path/to/my.xls ./path/to/vtt```
       - would generate file ```my.vtt```
 
 ## License
